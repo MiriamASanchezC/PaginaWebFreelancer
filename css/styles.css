@@ -1,0 +1,50 @@
+ :root {
+    /* Variables de css*/
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+
+    --fuente-principal: 3.8rem;
+
+ }
+ html{
+    font-size: 62.5%;
+ }
+ body{
+    font-size: 16px; /*1 rem = 10px*/
+    font-family: Arial, Helvetica, sans-serif;
+ 
+ }
+ .titulo{
+    text-align: center;
+    font-size: var(--fuente-principal);
+   
+ }
+ h1.titulo span{
+    font-size: 2rem; 
+ }
+ .contenedor{
+    width: 120rem;
+    margin-top: 0;
+    margin-right:auto;
+    margin-bottom: 0;
+    margin-left: auto;
+
+    /*Esto es lo mismo que lo de arriba*/
+    /*margin: 0 auto 0 auto;*/
+ }
+
+ .nav-bg{
+    background-color: var(--secundario);
+ }
+ .navegacion-principal a{
+   color: var(--blanco);
+   text-decoration: none;
+ }
+ .navegacion-principal {
+    padding: 1rem;
+    display: flex;/*con en flex nos va a permitir manipular lo que este dentro de esta clase y por eso ahora pusimos space-between*/
+    justify-content: space-between;
+ }
